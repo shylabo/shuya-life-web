@@ -9,7 +9,7 @@ export const NavItem: FunctionComponent<{
   return (
     <li
       className={
-        (active === value ? "text-green " : "") +
+        (active === value ? "text-blue-600 " : "") +
         "capitalize cursor-pointer hover:text-blue-500"
       }
       onClick={() => handlerFilterCategory(value)}
@@ -26,10 +26,10 @@ const ProjectsNavbar: FunctionComponent<{
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value="all" {...props} />
+      <NavItem value="go" {...props} />
+      <NavItem value="typescript" {...props} />
       <NavItem value="react" {...props} />
-      <NavItem value="mongo" {...props} />
-      <NavItem value="django" {...props} />
-      <NavItem value="node" {...props} />
+      <NavItem value="vue" {...props} />
     </div>
   );
 };
