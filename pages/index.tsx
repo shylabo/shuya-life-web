@@ -13,26 +13,23 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-        Shuya is a full-time software engineer in Tokyo. He's experienced both
-        product manager and software engineer job and worked in tech industry
-        over 6 yrs.
+        Full-stack software engineer with strong strategic planning and
+        requirements definition skills for product management, and a track
+        record of delivering high-value products in diverse development
+        environments - from startups to enterprises - including significant
+        contributions to fundraising efforts for a startup in Japan.
         <br />
-        In his six years as a product manager and software engineer, Shuya found
-        his passion in creating products that help people through creating
-        web apps and working closely together with Product and Design experts.
+        In his over six year's career as a product manager and software
+        engineer, Shuya found his passion in creating products that help people
+        through creating web apps and working closely together with Product and
+        Design experts.
         <br />
-        Shuya is running his own channel and posting vlogs, interview videos and
-        tech stuff. He is eager to create something valuable and informative to
-        people from all over the world. By creating those videos, he's enjoying
-        interacting with people and exchange our values and cultures.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide">
-          What I am doing
-        </h4>
+        <h4 className="my-3 text-xl font-semibold tracking-wide">What I do</h4>
 
         <div className="grid gap-6 my-3 md:grid-cols-2">
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}

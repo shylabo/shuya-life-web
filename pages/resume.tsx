@@ -1,5 +1,5 @@
 import Bar from "../components/Bar";
-import { languages, tools } from "../data";
+import { languages, skills } from "../data";
 
 const Resume = () => {
   return (
@@ -7,24 +7,35 @@ const Resume = () => {
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Education</h5>
+          <h5 className="my-3 text-2xl font-bold">💻 As Software engineer</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">
-              Computer Science Engineering
-            </h5>
-            <p className="font-semibold">Academy of Technology (2017-2021)</p>
+            <h5 className="my-2 text-xl font-bold"></h5>
             <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
+              ・Wide-ranging development experience spanning from infrastructure
+              to front-end development.
+              <br />
+              ・Highly skilled in delivering valuable features quickly, while
+              maintaining high standards for maintainability and scalability.
+              <br />
+              ・Ability to deliver functionality in a minimal and efficient
+              manner.
             </p>
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <h5 className="my-3 text-2xl font-bold">🏁 As Product manager</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
-            <p className="font-semibold">Tata Consultancy Services</p>
-            <p className="my-3">I don't know why I am doing this job</p>
+            <p className="my-3">
+              ・Skilled at identifying the true value of user insights and
+              market competition, and establishing clear priorities based on
+              solid reasons.
+              <br />
+              ・Collaborates effectively with diverse teams to quickly deliver
+              valuable solutions.
+              <br />
+              ・Enjoys the process of working with others to provide value
+              swiftly.
+            </p>
           </div>
         </div>
       </div>
@@ -41,9 +52,9 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
+          <h5 className="my-3 text-2xl font-bold">Skills</h5>
           <div className="my-2">
-            {tools.map((tool, i) => (
+            {skills.map((tool, i) => (
               <Bar value={tool} key={i} />
             ))}
           </div>
