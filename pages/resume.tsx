@@ -4,7 +4,6 @@ import { languages, skills } from "../data";
 const Resume = () => {
   return (
     <div className="px-6 py-2">
-      {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">💻 As Software engineer</h5>
@@ -40,7 +39,6 @@ const Resume = () => {
         </div>
       </div>
 
-      {/*Languages & Tools */}
       <div className="grid gap-9 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>

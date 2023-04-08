@@ -5,8 +5,6 @@ import {
   AiFillYoutube,
   AiOutlineMail,
 } from "react-icons/ai";
-import { BiPhoneCall } from "react-icons/bi";
-import { GiCloudDownload, GiPaper, GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
@@ -80,9 +78,6 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center justify-center">
           <AiOutlineMail className="mr-2" /> <span>shuya.life@gmail.com </span>
-        </div>
-        <div className="flex items-center justify-center">
-          <BiPhoneCall className="mr-2" /> <span>236-833-3181</span>
         </div>
       </div>
     </>
