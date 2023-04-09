@@ -191,8 +191,8 @@ export const projects: IProject[] = [
     image_path: "/images/shuya-life-web.png",
     deployed_url: "/",
     github_url: "https://github.com/shylabo/shuya-life-web",
-    category: ["react"],
-    key_techs: ["React.js", "Next.js", "JavaScript", "TailwindCSS"],
+    category: ["react", "typescript"],
+    key_techs: ["React.js", "Next.js", "TypeScript", "TailwindCSS"],
   },
   {
     name: "Dad Jokes",
