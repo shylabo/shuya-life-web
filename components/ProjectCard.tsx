@@ -54,7 +54,8 @@ const ProjectCard: FunctionComponent<{
                 <AiFillGithub /> <span>Github</span>
               </a>
               <a
-                href={deployed_url}
+                // TODO: when each project is hosted, it should be activated.
+                // href={deployed_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 target="_blank"
               >
