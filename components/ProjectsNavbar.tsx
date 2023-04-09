@@ -30,6 +30,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="typescript" {...props} />
       <NavItem value="react" {...props} />
       <NavItem value="vue" {...props} />
+      <NavItem value="others" {...props} />
     </div>
   );
 };
