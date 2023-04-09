@@ -10,14 +10,13 @@ const Resume = () => {
           <div className="">
             <h5 className="my-2 text-xl font-bold"></h5>
             <p className="my-3">
+              ・2yrs+ experience
+              <br />
               ・Wide-ranging development experience spanning from infrastructure
               to front-end development.
               <br />
               ・Highly skilled in delivering valuable features quickly, while
               maintaining high standards for maintainability and scalability.
-              <br />
-              ・Ability to deliver functionality in a minimal and efficient
-              manner.
             </p>
           </div>
         </div>
@@ -25,15 +24,14 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold">🏁 As Product manager</h5>
           <div className="">
             <p className="my-3">
+              ・4yrs experience
+              <br />
               ・Skilled at identifying the true value of user insights and
               market competition, and establishing clear priorities based on
               solid reasons.
               <br />
               ・Collaborates effectively with diverse teams to quickly deliver
               valuable solutions.
-              <br />
-              ・Enjoys the process of working with others to provide value
-              swiftly.
             </p>
           </div>
         </div>
