@@ -2,6 +2,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
+  AiFillMediumSquare,
   AiFillYoutube,
   AiOutlineMail,
 } from "react-icons/ai";
@@ -51,6 +52,9 @@ const Sidebar = () => {
         </a>
         <a href="https://github.com/shylabo" target="_blank">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
+        </a>
+        <a href="https://medium.com/@shuya.life" target="_blank">
+          <AiFillMediumSquare className="w-8 h-8 cursor-pointer" />{" "}
         </a>
         <a
           className="text-red-500"
