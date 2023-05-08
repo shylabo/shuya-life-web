@@ -26,6 +26,7 @@ const ProjectsNavbar: FunctionComponent<{
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value="all" {...props} />
+      <NavItem value="chatgpt" {...props} />
       <NavItem value="go" {...props} />
       <NavItem value="typescript" {...props} />
       <NavItem value="react" {...props} />

@@ -22,4 +22,10 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "go" | "typescript" | "react" | "vue" | "others";
+export type Category =
+  | "go"
+  | "chatgpt"
+  | "typescript"
+  | "react"
+  | "vue"
+  | "others";
