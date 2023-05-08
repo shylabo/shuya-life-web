@@ -155,6 +155,15 @@ export const projects: IProject[] = [
     key_techs: ["React", "Syncfusion", "TailwindCSS"],
   },
   {
+    name: "AI Chat Room (ChatGPT)",
+    description: "AI Chat Room where you can talk with ai using openai api",
+    image_path: "/images/ai-chat-room.png",
+    deployed_url: "/",
+    github_url: "https://github.com/shylabo/ai-chat-room",
+    category: ["chatgpt"],
+    key_techs: ["HTML", "JavaScript", "ChatGPT"],
+  },
+  {
     name: "Twitter app",
     description:
       "This is a Twitter clone application that enables you to tweet, reply, and engage with other users, utilizing TypeScript, React, and Firebase. Additionally, the application includes Google account authentication to ensure secure access to your account.",
