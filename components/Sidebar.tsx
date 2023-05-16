@@ -5,17 +5,17 @@ import {
   AiFillMediumSquare,
   AiFillYoutube,
   AiOutlineMail,
-} from "react-icons/ai";
-import { GoLocation } from "react-icons/go";
-import { useTheme } from "next-themes";
-import Image from "next/image";
+} from 'react-icons/ai'
+import { GoLocation } from 'react-icons/go'
+import { useTheme } from 'next-themes'
+import Image from 'next/image'
 
 const Sidebar = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme()
 
   const changeTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-  };
+    setTheme(theme === 'light' ? 'dark' : 'light')
+  }
 
   return (
     <>
@@ -51,31 +51,23 @@ const Sidebar = () => {
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/shylabo" target="_blank">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
+          <AiFillGithub className="w-8 h-8 cursor-pointer" />{' '}
         </a>
-        <a href="https://medium.com/@shuya.life" target="_blank">
-          <AiFillMediumSquare className="w-8 h-8 cursor-pointer" />{" "}
+        <a href="https://medium.com/@shuya.tech" target="_blank">
+          <AiFillMediumSquare className="w-8 h-8 cursor-pointer" />{' '}
         </a>
-        <a
-          className="text-red-500"
-          href="https://www.youtube.com/c/ShuyaLife"
-          target="_blank"
-        >
+        <a className="text-red-500" href="https://www.youtube.com/c/ShuyaLife" target="_blank">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
-        <a
-          className="text-pink-500"
-          href="https://www.instagram.com/shuya.life"
-          target="_blank"
-        >
-          <AiFillInstagram className="w-8 h-8 cursor-pointer" />{" "}
+        <a className="text-pink-500" href="https://www.instagram.com/shuya.life" target="_blank">
+          <AiFillInstagram className="w-8 h-8 cursor-pointer" />{' '}
         </a>
       </div>
 
       {/* Contacts */}
       <div
         className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
-        style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
+        style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
       >
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Vancouver, Canada </span>
@@ -85,7 +77,7 @@ const Sidebar = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar
