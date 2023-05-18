@@ -1,7 +1,4 @@
-# Shuya Life
-
-https://shuya-life.com
-hosted on AWS Amplify
+# My "PREVIOUS" personal website
 
 This website serves as a platform to showcase an individual or business's collection of work and accomplishments. It offers a visually appealing and organized presentation of projects, products, or services, demonstrating the creator's skills, experience, and capabilities.
 
